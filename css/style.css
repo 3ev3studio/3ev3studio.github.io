@@ -281,6 +281,11 @@ body, html{
 .notes{
   padding: 3%;
 }
+.games{
+  padding-top: 50px;
+  padding-right: 0;
+  padding-left: 20%;
+}
   /* Поплавок четыре колонки бок о бок */
 .column {
   float: left;
@@ -311,6 +316,49 @@ body, html{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+ /* Поплавок четыре колонки бок о бок */
+ .games-column {
+  float: left;
+  width: 20%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+.games-card img{
+  max-width: 50%;
+  border-radius: 50%;
+ 
+}
+/* Удалите лишние левые и правые поля, из-за заполнения */
+.games-row {
+  margin: 0 -5px;
+}
+
+/* Очистить поплавки после столбцов */
+.games-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Отзывчивые столбцы */
+@media screen and (max-width: 600px) {
+  .games-column {
+    width: 100%;
+    padding-top: 25px;
+    
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Стиль контейнера карточек */
+.games-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
   text-align: center;
   background-color: #f1f1f1;
 }

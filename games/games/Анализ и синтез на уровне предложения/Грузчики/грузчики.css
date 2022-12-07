@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    
+    font-size: 30px;
+}
+body{
+    background-image: url(../../images/грузы.png);
+
+}
+form{
+    margin: 10px;
+    text-align: center;
+}
+
+#radius{
+    width: 100%;
+background-color: burlywood;
+color: black;
+    
+}
+.firsttruck,.secondtruck,.thirdtruck{
+    margin-top: 30px;
+}
+.firsttruck{
+    background-color: blanchedalmond;
+}
+.secondtruck{
+    background-color: aliceblue;
+}
+.thirdtruck{
+    background-color: beige;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+.info{
+    color: black;
+    background-color: rosybrown;
+
+    padding: 0;
+    width: 100%;
+
+}
+.info b{
+    color: black;
+}
+
+#submit{
+    border-radius: 10%;
+    background-color: black;
+    color:white;
+}
+
+
+#image{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}

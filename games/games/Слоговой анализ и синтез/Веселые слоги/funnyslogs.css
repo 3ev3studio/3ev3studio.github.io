@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 30px;
+}
+body{
+    background-image: url(../../images/весёлые\ слоги.png);
+
+}
+form{
+    margin: 10px;
+    text-align: center;
+}
+
+#radius{
+    width: 50%;
+    margin: 5px;
+    border-radius: 15%;
+background-color: rgb(72, 153, 142);
+color: white;
+    
+}
+
+.info{
+
+    color: black;
+    margin: 50px 10px 100px 10px;
+    padding: 0;
+
+}
+.info b{
+    color: black;
+}
+
+#submit{
+    border-radius: 10%;
+    background-color: black;
+    color:white;
+  
+}
+
+
+#image{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}

@@ -58,10 +58,8 @@ body, html{
   }
   
   .text-info{
-    background-color: #666666;
     color:#ddd;
-    width: auto;
-    height: 100%;
+    margin: 0;
     padding: 50px 50px;
   }
 

@@ -1,13 +1,17 @@
 <html>
     <head>
-        <link rel="styleheet" type="text/css" href="../snezhinka/snizinka.css">
+         <link rel="stylesheet" type="text/css" href="snizinka.css">
     </head>
     <body> 
         <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-            <img src="../images/snezhinka.jpg" alt="snezhinka">
-            Количество звуков  <input type="text" name="numbers">
-            Первый звук  <input type="text" name="firstSong">
-            Последний звук  <input type="text" name="lastSong">
+            <p class="info">Смотрит на картинку, называет слово, в 1-ю ячейку пишет кол-во звуков, 2-ю и 3-ю ячейки первый и последний звук.  </p>
+            <img src="../images/snezhinka.jpg" alt="snezhinka" id="image"><br>
+            Количество звуков <br>
+             <input type="text" name="numbers" id="radius"><br>
+            Первый звук<br>
+              <input type="text" name="firstSong" id="radius"><br>
+            Последний звук<br>
+              <input type="text" name="lastSong" id="radius"><br>
            <input type="submit" value="Submit">
            </form> 
         <script src="../snezhinka/snezhinka.js"></script>

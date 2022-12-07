@@ -1,14 +1,15 @@
 <html>
     <head>
-        <link rel="styleheet" type="text/css" href="../vorobei/vorobei.css">
+        <link rel="stylesheet" type="text/css" href="vorobei.css">
     </head>
     <body> 
         <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-            <img src="../images/vorobei.jpg" alt="воробушек">
-            Количество звуков  <input type="text" name="numbers">
-            Первый звук  <input type="text" name="firstSong">
-            Последний звук  <input type="text" name="lastSong">
-           <input type="submit" value="Submit">
+            <p class="info"> Смотрит на картинку, называет слово, в 1-ю ячейку пишет кол-во звуков, 2-ю и 3-ю ячейки первый и последний звук.  </p>
+            <img src="../images/vorobei.jpg" alt="воробушек" id="image"><br>
+            Количество звуков<br><input type="text" name="numbers" id="radius"><br>
+            Первый звук  <br><input type="text" name="firstSong" id="radius"><br>
+            Последний звук  <br><input type="text" name="lastSong" id="radius"><br>
+           <input type="submit" value="Submit" id="submit">
            </form> 
         <script src="../vorobei/vorobei.js"></script>
     </body>

@@ -6,7 +6,6 @@ function validateForm() {
     var text2 = "В лесу стоит кормушка для лосе.";
     var text3="Птицы веселыми песнями встречают солнечные луч.";
 
-//alert(firstWord.test("вуз"));
 if(
     firstWord==text1 && secondWord==text2 && thirdWord==text3){
         alert("Всё верно")

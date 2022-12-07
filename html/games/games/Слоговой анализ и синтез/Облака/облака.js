@@ -7,11 +7,11 @@ function validateForm() {
 
 //alert(firstWord.test("вуз"));
 if(
-    firstWord=="банка" && 
-    secondWord=="адрес" &&
-    thoughtWord == "лимон" &&
-    fourthWord == "книга" &&
-    fifthtWord == "шутка" 
+    firstWord=="улица" && 
+    secondWord=="линейка" &&
+    thoughtWord == "салют" &&
+    fourthWord == "овощи" &&
+    fifthtWord == "самолёт" 
 ){
     alert("Молодчина, ты ввёл всё верно ")
 }

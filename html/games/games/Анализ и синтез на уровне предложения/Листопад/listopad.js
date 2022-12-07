@@ -4,14 +4,20 @@ function validateForm() {
     var thoughtWord = document.forms["myForm"]["thoughtWord"].value;
     var fourthWord = document.forms["myForm"]["fourthWord"].value;
     var fifthtWord = document.forms["myForm"]["fifthtWord"].value;
+    var sixtWord = document.forms["myForm"]["sixtWord"].value;
+    var seventWord = document.forms["myForm"]["seventWord"].value;
+    var eightWord = document.forms["myForm"]["eightWord"].value;
 
-//alert(firstWord.test("вуз"));
+
 if(
-    firstWord=="банка" && 
-    secondWord=="адрес" &&
-    thoughtWord == "лимон" &&
-    fourthWord == "книга" &&
-    fifthtWord == "шутка" 
+    firstWord=="Над" && 
+    secondWord=="болотом" &&
+    thoughtWord == "с" &&
+    fourthWord == "шумом" &&
+    fifthtWord == "поднялась" &&
+    sixtWord  == "стая" &&
+    seventWord== "диких" &&
+    eightWord == "уток" 
 ){
     alert("Молодчина, ты ввёл всё верно ")
 }
